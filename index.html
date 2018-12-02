@@ -1,7 +1,27 @@
 
 <style> p { margin:0 } </style>
 <html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+</style>
+</head>
 <body>
+
 <p style="font-family:georgia; font-size: 72px; padding: 20px;"><strong>Next Invite:</br> <span style="font-family:'helvetia'; font-size: 26px; padding: 0px, 0px, 0px, 30px;">
 	
 	scheming atm
@@ -32,8 +52,19 @@
 </div>
 </body>
 </html>
-<a href="about.html"><img src="https://66.media.tumblr.com/3b0df2ad9648990c0de65ebdfe3d18aa/tumblr_pj3hujimBj1wdhf6yo1_1280.jpg" style="width:1200px;">
-	<p></a>
+
+<div class="row">
+  <div class="column">
+    <a href="about.html"><img src="https://66.media.tumblr.com/a8724712c3dc64a6eefecc849acbf4a7/tumblr_pj3hujimBj1wdhf6yo2_1280.jpg" alt="Snow" style="width:100%"></a>
+  </div>
+  <div class="column">
+    <a href="about.html"><img src="https://66.media.tumblr.com/3b0df2ad9648990c0de65ebdfe3d18aa/tumblr_pj3hujimBj1wdhf6yo1_1280.jpg" alt="Forest" style="width:100%"></a>
+  </div>
+</div>
+    
+    
+    
+    
 <a href="https://www.instagram.com/gotemilk/">
 <img src="https://66.media.tumblr.com/8b8be6920b13c1df0e7b4dccf52844a6/tumblr_pj3guvHWMt1wdhf6yo1_1280.jpg" style="width:1200px;">
 </a>
