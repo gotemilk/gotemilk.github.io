@@ -7,44 +7,10 @@ content="width-device-width, initial-scale=1">
 
 
 <style> 
-
+/*middle css*/
 .goldimagetext {margin: 0;
-padding-right: 5px;
-}
- #site-footer {
-   width: 100%;
-   height:140px;
-background: black;
-}
+padding-right: 5px;}
 
- /*title bar css*/
- 
- .gotemilk { 
-	float: left;
-    width:80%;
-}
- 
- .socialmedia { 
-	float: left;
-    width: 20%;}
-    
-    
-    
-* {
-	box-sizing: border-box;
-    }
-    
-    
-/*--*/  
-
-        
-a {
-color: black;
-text-decoration: none;
-}
-a:hover {
-text-decoration: underline;
-}
 
 .image-text
 
@@ -95,31 +61,69 @@ div.container
     
         
        
-        
+
+/*---*/
+/*overworld*/
+
+
 body {
 	background-color: #ffd31c
     }
-	blockquote {
-	width:100%;
-   	
-}
-	
-	p3 { font-weight:lighter; }
-	
-    p3.outset {border-style: outset;}
-
-
-	img.outset {border-style: outset;
-	padding-left: 0
     
+  /* clearfix (clear floats)*/
+.row::after {
+	content: "";
+    clear: both;
+    display: table;
+}
+    
+    
+* {
+	box-sizing: border-box;
+    }
+    
+    
+blockquote 
+    {width:100%;}
+    
+    /*links*/
+    a {
+color: black;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
 }
 
+ /*title bar css*/
+ 
+ .gotemilk { 
+ 	padding: 5px;
+	float: left;
+    width:80%;
+}
+ 
+ .socialmedia {
+	float: left;
+    width: 20%}
+    
+   
+       /*footer css*/
+    
+  #site-footer {
+   width: 100%;
+   height:140px;
+background: black;
+}
+    
+/*--*/    
+        
 </style>
 <html>
 <body>
 
 <!--title bar-->
-<div class="row"> 
+<div class="row" style="margin:-10px;"> 
 
 <div class="gotemilk" align="left"><a href="index.html"><img style="width: 70%" src="https://i.imgur.com/lkgsr2t.gif" alt="https://i.imgur.com/Ga7ZMOR.png"></a></div>
 
@@ -131,10 +135,9 @@ body {
 
 </a>
 </div></div>
-</br>
-</br>
 
 
+<!--middle-->
 
 <!--intro image/top menu-->
 
@@ -222,6 +225,8 @@ body {
     </div>
    
        </br></br>
+
+<!---->
 
 
  <!--footer-->
