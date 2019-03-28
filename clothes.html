@@ -1,42 +1,9 @@
+<html>
 <head>
-<style> 
-/*MIDDLE CSS*/
- .items
-    { width:66%;
-   height: 400px; }
+<style>
+/*middle css*/
+    .items { width:100%}
     
-    
-p.image-text
-
-{ margin:0px;
-font-size: 50px;
-background: #fa4251;
-font-family: georgia;
-
-}
-
-.goldimagetext
-
-{ 
-font-size: 20 px;
-background: #fa4251;
-font-family: arial-black, helvetica-bold;
-}
-
-div.container
-
-{
-	position: relative;
-    text-align: center;
-    color: black;
-    }
-    
-    div.top-right {
-    position: absolute;
-    top: 16px;
-    right: 20%;
-    }
-
 
 #rcorners1 {
 	border-radius: 2px 2px;
@@ -48,13 +15,6 @@ div.container
     
     
 
-  
-     
-        
-
-/*----*/
-
-
 /*overworld*/
 
 
@@ -62,13 +22,33 @@ body {
 	background-color: #ffd31c
     }
     
-  /* clearfix (clear floats)*/
+    /*TEXT ON IMAGE*/
+    
+    
+    div.top-right {
+    position: absolute;
+    top: 16px;
+    right: 20%;
+    }
+    
+ /*COLUMNS*/
+ 
+ 
 .row::after {
 	content: "";
     clear: both;
     display: table;
 }
-    
+
+    .column50 {
+ 	float: left;
+    width:50%;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    color: black;
+
+}
     
 * {
 	box-sizing: border-box;
@@ -89,15 +69,16 @@ text-decoration: underline;
 
  /*title bar css*/
  
-  .gotemilk { 
+ .gotemilk { 
  	padding: 5px;
 	float: left;
     width:80%;
 }
  
- .socialmedia { margin:0px; padding-top: 8px;
+ .socialmedia { padding: 10px;
 	float: left;
     width: 20%}
+    
    
        /*footer css*/
     
@@ -136,19 +117,14 @@ background: black;
 <!----->
 
 
-
-
-</br>
-</br>
-
-
-
 <!--MIDDLE-->
-<!--Baseball caps-->
-    
-    	<div class="container">
-    <a href="URL">
-<img src="https://i.imgur.com/0XukEcf.jpg" class="items">
+<div class="row">
+
+<!-- BASEBALL CAPS -->
+<div class="column50">
+
+<a href="URL">
+<img class="items" src="https://i.imgur.com/0XukEcf.jpg">
 
 
 <div class="top-right">
@@ -163,62 +139,114 @@ background: black;
 <p align="right" style="font-family: georgia; font-size:40px"><b>
 
 
-<p align="right" style="font-size:22px; font-family:arial-black, helvetica"><em><b><span class="goldimagetext" style=";color:#ffdc31; background-color:#fa4251;">$22</b></em></p></span></a>
-</br>
+<p align="right" style="font-size:22px; font-family:arial-black, helvetica"><em><b><span class="goldimagetext" style=";color:#ffdc31; background-color:#fa4251;">$22</span></b></em></p>
+</a></a></div>
 </div>
-<!---->
-
-     </br></br>
-    
-    
-	<!--clothes-->
-
-	<div class="container">
-    <a href="clothes.html">
-<img src="https://i.imgur.com/OS2PkBh.jpg"  class="items">
+<!-- LONGSLEEVE TEES -->
+ <a href="clothes.html"><div class="column50">
+   
+<img class="items" src="https://i.imgur.com/OS2PkBh.jpg"  class="items">
 
 
 <div class="top-right">
 
 <p class="image-text">
  
- <b><span style=";color:black; background-color:#fa4251">Longsleeve Tees</b></p></span>
+ <b><span style=";color:black; background-color:#fa4251">Longsleeve Tees</span></b></p>
 
 <p align="right" style="font-family: georgia; font-size:40px"><b>
 
 
-<p align="right" style="font-size:22px; font-family:arial-black, helvetica"><em><b><span class="goldimagetext" style=";color:#ffdc31; background-color:#fa4251;">$25</b></em></p></span></a>
-</br>
+<p align="right" style="font-size:22px; font-family:arial-black, helvetica"><em><b><span class="goldimagetext" style=";color:#ffdc31; background-color:#fa4251;">$25</span></b></em></p>
+</a>
 </div>
-<!---->
+</div>
+
+<!-- BASEBALL CAPS -->
+<div class="column50">
+
+<a href="URL">
+<img class="items" src="https://i.imgur.com/0XukEcf.jpg">
+
+
+<div class="top-right">
+    
+
+
+
+ <p class="image-text">
+ 
+ <b><span style=";color:black; background-color:#fa4251">Baseball Caps</b></p></span>
+
+<p align="right" style="font-family: georgia; font-size:40px"><b>
+
+
+<p align="right" style="font-size:22px; font-family:arial-black, helvetica"><em><b><span class="goldimagetext" style=";color:#ffdc31; background-color:#fa4251;">$22</span></b></em></p>
+</a></a></div>
+</div>
+<!-- LONGSLEEVE TEES -->
+ <a href="clothes.html"><div class="column50">
+   
+<img class="items" src="https://i.imgur.com/OS2PkBh.jpg"  class="items">
+
+
+<div class="top-right">
+
+<p class="image-text">
+ 
+ <b><span style=";color:black; background-color:#fa4251">Longsleeve Tees</span></b></p>
+
+<p align="right" style="font-family: georgia; font-size:40px"><b>
+
+
+<p align="right" style="font-size:22px; font-family:arial-black, helvetica"><em><b><span class="goldimagetext" style=";color:#ffdc31; background-color:#fa4251;">$25</span></b></em></p>
+</a>
+</div>
+</div>
+<!-- BASEBALL CAPS -->
+<div class="column50">
+
+<a href="URL">
+<img class="items" src="https://i.imgur.com/0XukEcf.jpg">
+
+
+<div class="top-right">
+    
+
+
+
+ <p class="image-text">
+ 
+ <b><span style=";color:black; background-color:#fa4251">Baseball Caps</b></p></span>
+
+<p align="right" style="font-family: georgia; font-size:40px"><b>
+
+
+<p align="right" style="font-size:22px; font-family:arial-black, helvetica"><em><b><span class="goldimagetext" style=";color:#ffdc31; background-color:#fa4251;">$22</span></b></em></p>
+</a></a></div>
+</div>
+<!-- LONGSLEEVE TEES -->
+ <a href="clothes.html"><div class="column50">
+   
+<img class="items" src="https://i.imgur.com/OS2PkBh.jpg"  class="items">
+
+
+<div class="top-right">
+
+<p class="image-text">
+ 
+ <b><span style=";color:black; background-color:#fa4251">Longsleeve Tees</span></b></p>
+
+<p align="right" style="font-family: georgia; font-size:40px"><b>
+
+
+<p align="right" style="font-size:22px; font-family:arial-black, helvetica"><em><b><span class="goldimagetext" style=";color:#ffdc31; background-color:#fa4251;">$25</span></b></em></p>
+</a>
+</div>
+</div>
+</div>
 
 </br></br>
-
-    <!--stickers-->
-    
-    <div class="container">
-    
-    <a href="stickers.html">
-    <img src="https://i.imgur.com/5C7WFp5.jpg" class="items">
-    
-    
-    <div class="top-right">
-    
-    <p class="image-text">
- 
- <b><span style=";color:black; background-color:#fa4251">Tank Tops</b></p></span>
-
-<p align="right" style="font-family: georgia; font-size:40px"><b>
-
-
-<p align="right" style="font-size:22px; font-family:arial-black, helvetica"><em><b><span class="goldimagetext" style=";color:#ffdc31; background-color:#fa4251;">$20</b></em></p></span></a>
-</br>
-</div>
-<!---->
-   
-       </br></br></br></br>
-
-
 <!--footer-->
 <footer id="site-footer">
 
@@ -235,7 +263,8 @@ background: black;
 </p></div>
 
     <p align="left" style="font-size: 12px; font-family: helvetica; padding-left: 20px; color:#4c4c4c">© Copyright 2019 Gōtemilk. All Rights Reserved</br><em>Fanmail:</em><b> gotedraws@gmail.com </b></p>
- 
 
-</footer>
+
+
+
 </body>
