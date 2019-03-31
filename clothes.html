@@ -10,18 +10,11 @@
 /*----*/
 
 
-/*overworld*/
-
-
-body {
-	background-color: #ffd31c
-    }
-    
-    /*TEXT ON IMAGE*/
+ /*TEXT ON IMAGE*/
     p.image-text
 
 { margin:0px;
-font-size: 20px;
+font-size: 50px;
 background: #fa4251;
 font-family: georgia;
 color:black; 
@@ -87,9 +80,7 @@ font-family: arial-black, helvetica-bold;
     width:33.33%;
     padding: .5px .5px .5px .5px }
     
-
-
- /*COLUMNS*/
+  /*COLUMNS*/
  
  
 .row::after {
@@ -109,6 +100,14 @@ font-family: arial-black, helvetica-bold;
     padding: 5px;
 
 }
+
+  /* clearfix (clear floats)*/
+.row::after {
+	content: "";
+    clear: both;
+    display: table;
+}
+    
     
 * {
 	box-sizing: border-box;
@@ -117,7 +116,16 @@ font-family: arial-black, helvetica-bold;
     
 blockquote 
     {width:100%;}
-    
+
+
+
+/*overworld*/
+body {
+	background-color: #ffd31c;
+    margin: 0px;
+    }
+
+      
     /*links*/
     a {
 color: black;
@@ -126,10 +134,10 @@ text-decoration: none;
 a:hover {
 text-decoration: underline;
 }
-
  /*title bar css*/
+ 
   .gotemilk { 
- 	padding: 5px 0px 0px 5px;
+ 	padding: 5px 0px 0px 0px;
 	float: left;
     width:80%;
 }
@@ -137,14 +145,17 @@ text-decoration: underline;
  .socialmedia { padding: 10px 10px 0px 0px;
 	float: left;
     width: 20%}
+    
+   
        /*footer css*/
     
-    
+ 
   #site-footer {
    width: 100%;
    height:210px;
 background: black;
 }
+    
     
 /*---*/
 </style>
@@ -155,7 +166,7 @@ background: black;
 
 
 <!--title bar-->
-<div class="row" style="margin:-10px;"> 
+<div class="row" style="margin:0px;"> 
 
 <div class="gotemilk" align="left"><a href="index.html"><img style="width: 80%" src="https://i.imgur.com/lkgsr2t.gif" alt="https://i.imgur.com/Ga7ZMOR.png"></a></div>
 
@@ -170,9 +181,10 @@ background: black;
 
 
 
-<!-- TITLE--><h1 align="left" style="padding-left: 35px; background-color:#fa4251; font-family: georgia; margin:0px; line-height:150px; letter-spacing: -20px; "><span style="font-size:260px; ">C</span><span style="font-size:185px">lothing</span></h1>
-<!----->
 
+
+<!-- TITLE--><h1 align="left" style="padding-left: 35px; background-color:#fa4251; font-family: helvetica; margin:0px; line-height:150px; letter-spacing: -20px; "><span style="font-size:180px; "><i>C</span><span style="font-size:185px">lothing</i></span></h1>
+<!----->
 
 <!--MIDDLE-->
 <!--Longsleeve Tees-->
