@@ -2,6 +2,29 @@
 <head>
 <style>
 /*middle css*/
+div.top-right { text-align: right;
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    }
+    div.top-right2 { text-align: right;
+    position: absolute;
+    top: 14%;
+    right: 5%;
+    }
+
+      p:hover {text-decoration: underline}
+          .gold {
+    color: #ffd31c;
+    background-color: #fa4251; 
+  font: italic bold 65px/65px helvetica, sans-serif;
+ padding-right: 8px; }
+  
+      .main-topics {
+        background-color:#fa4251; 
+        font: bold 90px/75px georgia, serif; 
+        padding-top: 3px;
+        }
 
 .items
  { width:100%;
@@ -14,7 +37,7 @@
     p.image-text
 
 { margin:0px;
-font-size: 50px;
+font-size: 20px;
 background: #fa4251;
 font-family: georgia;
 color:black; 
@@ -118,6 +141,44 @@ blockquote
     {width:100%;}
 
 
+/*COLUMNS*/
+ 
+ 
+.row::after {
+	content: "";
+    clear: both;
+    display: table;
+}
+.column {
+ 	float: left;
+    width:33.33%;
+    padding: 5px;
+
+}
+    .column50 {
+ 	float: left;
+    width:50%;
+    padding: 5px;
+
+}
+
+  /* clearfix (clear floats)*/
+.row::after {
+	content: "";
+    clear: both;
+    display: table;
+}
+    
+    
+* {
+	box-sizing: border-box;
+    }
+    
+    
+blockquote 
+    {width:100%;}
+
+
 
 /*overworld*/
 body {
@@ -183,28 +244,31 @@ background: black;
 
 
 
-<!-- TITLE--><h1 align="left" style="padding-left: 90px; background-color:#fa4251; font-family: helvetica; margin:0px; line-height:140px; letter-spacing: -15px"><span style="font-size:220px"><i>CLOTHING</i></span></h1>
-<!----->
+<!-- TITLE--><h1 align="left" style="padding-left: 60px; background-color:#fa4251; font-family: helvetica; margin:0px; line-height:140px; letter-spacing: -20px"><span style="font-size:200px"><i>CLOTHING</i></span></h1>
 
 <!--MIDDLE-->
 <!--Longsleeve Tees-->
 
-	<div class="container">
-    <a href="clothes.html">
-<img src="https://i.imgur.com/OS2PkBh.jpg"  class="items">
+<a href="tshirts.html"><div class="container">
+        
+        
+<img src="https://i.imgur.com/WwLijhv.jpg" style="width:100%">
+
+        
+        <div class="top-right">
+        <p  class="gold">
+        $20
+        </p></div>
+        
+        <div class="top-right2">
+      <p  class="main-topics">
+        Tees
+        </p>
+        </div>
 
 
-<div class="top-right">
 
- <p style="background-color:#fa4251"class="image-text">
- 
- <b>Longsleeve Tees</b></p>
-
-<p align="right" style="font-family: georgia; font-size:40px"><b>
-
-
-<p align="right" style="font-family:arial-black, helvetica"><em><b><span class="goldimagetext" style=";color:#ffdc31; background-color:#fa4251;">$25</b></em></p></span></a>
-</div>
+</div></a>
 <!---->
 
 <!--ROW 2-->
@@ -271,40 +335,7 @@ background: black;
 <!--ROW 3-->
 <DIV CLASS="ROW">
 <!--left side of row 3-->
-	<div class="containercolumn33">
-    <a href="clothes.html">
-<img src="https://i.imgur.com/OS2PkBh.jpg"  class="items">
 
-
-<div class="top-right">
-
- <p style="background-color:#fa4251"class="image-text">
- 
- <b>Shortsleeve Tees</b></p>
-
-<p align="right" style="font-family: georgia; font-size:40px"><b>
-
-
-<p align="right" style="font-family:arial-black, helvetica"><em><b><span class="goldimagetext" style=";color:#ffdc31; background-color:#fa4251;">$25</b></em></p></span></a>
-
-</div>
- <a href="clothes.html">
-<img src="https://i.imgur.com/OS2PkBh.jpg"  class="items">
-
-
-<div class="bottom-left">
-
- <p style="background-color:#fa4251"class="image-text">
- 
- <b>Shortsleeve Tees</b></p>
-
-<p align="right" style="font-family: georgia; font-size:40px"><b>
-
-
-<p align="right" style="font-family:arial-black, helvetica"><em><b><span class="goldimagetext" style=";color:#ffdc31; background-color:#fa4251;">$25</b></em></p></span></a>
-
-</div>
-</div>
 <!--right side of row 3-->
 <div class="containercolumn66">
     <a href="clothes.html">
