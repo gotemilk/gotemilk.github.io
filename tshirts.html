@@ -2,7 +2,11 @@
 <head>
 <style>
 /*middle css*/
-
+.buynow {
+   -webkit-filter: invert(1);
+   filter: invert(1);
+   }
+   
  /*TEXT ON IMAGE*/
     p.image-text
 
@@ -71,7 +75,7 @@ font-family: arial-black, helvetica-bold;
     color: black;
     	float: left;
     width:33.33%;
-    padding: .5px .5px .5px 100px }
+    padding: .5px .5px .5px 50px }
     
   /*COLUMNS*/
  
@@ -195,17 +199,17 @@ background: black;
 </div>
 
 
-<div class="column33" align="center" style="font: 50px helvetica; margin-top:50%">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<div class="column33" align="center" style=" margin-top:50%">
+<form  action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="4MGD323XZ8D8L">
 <table>
-<tr><td><input type="hidden" name="on0" value="olor"><b>Color</b></span></td></tr><tr><td><select name="os0">
+<tr><td><input type="hidden" name="on0" value="olor"><span style="font: 80px helvetica;">Color</span></td></tr><tr><td><select name="os0"style="width:200px;height: 50px;font-size:20px;">
 	<option value="Black">Black $15.00 USD</option>
 	<option value="White">White $15.00 USD</option>
 	<option value="Gray">Gray $15.00 USD</option>
 </select> </td></tr>
-<tr><td><input type="hidden" name="on1" value="Size"><b>Size</b></td></tr><tr><td><select name="os1">
+<tr><td><input type="hidden" name="on1" value="Size"><span style="font: 80px helvetica;">Size</span></td></tr><tr><td><select name="os1"style="width:200px;height: 50px;font-size:20px;">
 	<option value="Small">Small </option>
 	<option value="Medium">Medium </option>
 	<option value="Large">Large </option>
@@ -214,7 +218,7 @@ background: black;
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+</br><input class="buynow" style="width:150px; height:39px;" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 </div>
