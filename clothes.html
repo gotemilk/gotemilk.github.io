@@ -2,10 +2,40 @@
 <head>
 <style>
 /*middle css*/
-div.top-right { text-align: right;
+.categories {
+
+padding-left: 200px; 
+background-color:#fa4251; 
+font-family: helvetica; 
+margin:0px; 
+line-height:70px; 
+font-size: 50px;
+font-weight: 600;
+	}
+    
+     .main-topics {
+        background-color:black; 
+        color: #ffd31c;
+        font: 90px/75px georgia, serif; 
+        padding-top: 3px;
+        }
+        
+    .small-main-topics {
+    background-color: black;
+        color: #ffd31c; 
+        padding-top: 3px;
+        font: 50px/35px georgia, serif;
+
+}
+ div.top-left { text-align: left;
     position: absolute;
     top: 0%;
-    right: 5%;
+    left: 5%;
+    }   
+div.top-right { text-align: right;
+    position: absolute;
+    margin-top: 0%;
+    margin-right: 5%;
     }
     div.top-right2 { text-align: right;
     position: absolute;
@@ -20,13 +50,15 @@ div.top-right { text-align: right;
     background-color: #fa4251; 
   font: italic bold 65px/65px helvetica, sans-serif;
  padding-right: 8px; }
-  
-      .main-topics {
-        background-color:black; 
-        color: #ffd31c;
-        font: bold 90px/75px georgia, serif; 
-        padding-top: 3px;
-        }
+ 
+  .small-gold {
+    color: #ffd31c;
+    background-color: #fa4251; 
+  font: italic bold 65px/65px helvetica, sans-serif;
+  padding-right: 8px;
+  margin-bottom: 10%;}
+ 
+     
 
 .items
  { width:100%;
@@ -80,7 +112,7 @@ font-family: arial-black, helvetica-bold;
     }
      div.bottom-left {
     position: absolute;
-    bottom: 5%;
+    bottom: 0%;
     left: 10%;
     }
      div.bottom-right {position: absolute;
@@ -252,7 +284,7 @@ background: black;
 <!-- TITLE--><h1 align="left" style="padding-left: 60px; background-color:#fa4251; font-family: helvetica; margin:0px; line-height:140px; letter-spacing: -20px"><span style="font-size:200px"><i>CLOTHING</i></span></h1>
 </br></br>
 <!--MIDDLE-->
-<p align="left" style="text-decoration:none; padding-left: 200px; background-color:#fa4251; font-family: helvetica; margin:0px; line-height:50px"><span style="font-size:70px">Tees...</span></p></br>
+<p style="text-decoration:none;" class="categories">Tees</p></br>
 <!--VOID VOID VOID-->
 
 <a href="tshirts.html"><div class="container">
@@ -279,19 +311,22 @@ background: black;
 
 <!--ROW 2-->
 <DIV CLASS="ROW">
-	<div class="containercolumn">
+<div class="containercolumn">
     <a href="clothes.html">
-<img src="https://i.imgur.com/cvmTtiM.jpg"  class="items">
+<img src="https://i.imgur.com/cvmTtiM.jpg"  class="items"></a>
 
 
-  <div class="top-right2">
-      <p style="font: bold 30px/25px georgia, serif;"  class="main-topics">
-        <i>C Bad Do Good</i>
+<div class="top-right">
+ <p class="small-main-topics">
+        <i>CABQ</i>
         </p>
 
-<p align="right" style="font-family:arial-black, helvetica"><em><b><span class="goldimagetext" style=";color:#ffdc31; background-color:#fa4251;">$25</b></em></p></span></a>
-
 </div>
+<div class="bottom-left">
+        <p class="small-gold">
+        $20
+        </p></div>
+
 
 </div>
 <!---->
@@ -301,13 +336,14 @@ background: black;
 
 
 <div class="top-right">
- <p style="font: bold 30px/25px georgia, serif;"  class="main-topics">
-        <i>CABQ</i>
-        </p>
+ <p><span class="small-main-topics">
+        <i>Buenos Noches</br></br> El Principito</i>
+        </span></p>
 
 
-
-        <p  class="gold">
+</div>
+<div class="bottom-left">
+        <p  class="small-gold">
         $20
         </p></div>
 
@@ -315,7 +351,7 @@ background: black;
 </div></div>
 </br></br>
 <!--Sweaters-->
-<p align="left" style="text-decoration:none; padding-left: 200px; background-color:#fa4251; font-family: helvetica; margin:0px; line-height:50px"><span style="font-size:70px">Sweaters...</span></p>
+<p align="left" class="categories">Sweaters</p>
 </br>
 
     
@@ -343,7 +379,7 @@ background: black;
 </br></br>
 <!---->
 <!--MIDDLE-->
-<p align="left" style="text-decoration:none; padding-left: 200px; background-color:#fa4251; font-family: helvetica; margin:0px; line-height:50px"><span style="font-size:70px">Hats...</span></p></br>
+<p align="left" class="categories">Hats</p></br>
 <!--HANDS ON-->
 
 <a href="tshirts.html"><div class="container">
