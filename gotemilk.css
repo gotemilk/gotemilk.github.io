@@ -90,28 +90,18 @@ padding: 2px;
 .column30 {
 
  	float: left;
-
-    width:30%;
-
-
-
-}
+    width:30%;}
 
  
-    div.column33
-
-{
-	position: relative;
+div.column33
+    {	position: relative;
     text-align: left;
     color: black;
     	float: left;
-    width:40%;
-    padding: .5px .5px .5px 50px }
+    width:40%;}
 
-    div.column66
-
-{
-	position: relative;
+div.column66
+    {position: relative;
     text-align: center;
     color: black;
     	float: left;
@@ -184,7 +174,6 @@ div.container
     }
 
     
-/*---*/
 
 
        /*footer css*/
@@ -195,22 +184,3 @@ div.container
    height:210px;
 background: black;
 }
-    
-    
-/*---*//*overworld*/
-
-    
-
-   
-       /*footer css*/
-    
- 
-  #site-footer {
-   width: 100%;
-   height:210px;
-background: black;
-}
-    
-    
-/*---*/
-
