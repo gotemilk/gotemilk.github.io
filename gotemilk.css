@@ -9,6 +9,66 @@ body {
     margin: 0px 3% -5px;
     }
 
+
+ 
+    /*links*/
+
+a:link { color:white; text-decoration:none; }
+a:visited { color:white; }
+a:hover { text-decoration: underline;}
+a:active { color: white; }
+
+ /*title bar css*/
+ 
+  .gotemilk { 
+ 	padding: 5px 0px 0px 0px;
+	float: left;
+    width:80%;
+}
+ 
+ .socialmedia { padding: 10px 10px 0px 0px;
+	float: left;
+    width: 20%}
+    
+     
+   
+
+.topStripMenu {word-spacing: 15px;text-decoration:none; letter-spacing: 5px; line-height:17px; background-color:black; color: white; font-size: 11px; font-family: courier new; MARGIN-bottom:2px;}
+
+.label {text-align:center; padding: 0px 0px 0px 0px; background-color:#fa4251; font-family: helvetica; margin: 0% 0% 0% 0%; line-height:70px;letter-spacing: -5px; font-family: helvetica, arial rounded mt bold; font-size:70px}
+
+     .title/*off*/ {
+    	font-size:140px; 
+        padding-left: 60px; 		 				
+        background-color:#fa4251; 
+        font-family: helvetica; 
+        margin:0px; 
+        line-height:130px; 			
+        letter-spacing: -20px }
+
+
+.subTitle/*off*/ {
+  line-height: 0px; 
+  text-align: right; 
+  padding-right: 5%; 
+  margin-top: 0%; 
+  text-decoration:none;
+font-family: arial rounded mt bold, helvetica; 
+margin:0px; 
+font-size: 70px;
+font-weight: 600;
+}
+
+.categories/*redundant, moved to subTitle*/ {
+ 
+font-family: arial rounded mt bold, helvetica; 
+margin:0px; 
+line-height:70px; 
+font-size: 70px;
+font-weight: 600;
+	}
+
+
 /*middle css*/
 .goldimagetext {margin: 0;
 padding-right: 5px;
@@ -24,8 +84,42 @@ font-family: georgia;
 padding: 2px;
 }
 
-        
           /*COLUMNS*/
+
+
+.column30 {
+
+ 	float: left;
+
+    width:30%;
+
+
+
+}
+
+ 
+    div.column33
+
+{
+	position: relative;
+    text-align: left;
+    color: black;
+    	float: left;
+    width:40%;
+    padding: .5px .5px .5px 50px }
+
+    div.column66
+
+{
+	position: relative;
+    text-align: center;
+    color: black;
+    	float: left;
+    width:60%;}
+
+
+ 
+    
   /* clearfix (clear floats)*/
 .row::after {
 	content: "";
@@ -41,6 +135,9 @@ padding: 2px;
     
 blockquote 
     {width:100%;}
+
+
+
 
 /*CONTAINER CODE*/
 div.container
@@ -74,13 +171,6 @@ div.container
     }
 
 
-     .blurb { 
-       color: black;
-       text-align: right;
-    position: absolute;
-    top: 0%;
-    right: 5%;
-    }
 
  div.top-right { text-align: right;
     position: absolute;
@@ -96,30 +186,7 @@ div.container
     
 /*---*/
 
- 
-    /*links*/
-a:hover { 
-text-decoration: underline;
-}
 
-a {text-decoration: none;}
-
-a.top {
-color: white;}
-
- /*title bar css*/
- 
-  .gotemilk { 
- 	padding: 5px 0px 0px 0px;
-	float: left;
-    width:80%;
-}
- 
- .socialmedia { padding: 10px 10px 0px 0px;
-	float: left;
-    width: 20%}
-    
-   
        /*footer css*/
     
  
@@ -133,35 +200,7 @@ background: black;
 /*---*//*overworld*/
 
     
-  /* clearfix (clear floats)*/
-.row::after {
-	content: "";
-    clear: both;
-    display: table;
-}
-    
-    
-* {
-	box-sizing: border-box;
-    }
-    
-    
-blockquote 
-    {width:100%;}
-    
 
- /*title bar css*/
- 
-  .gotemilk { 
- 	padding: 5px 0px 0px 0px;
-	float: left;
-    width:80%;
-}
- 
- .socialmedia { padding: 10px 10px 0px 0px;
-	float: left;
-    width: 20%}
-    
    
        /*footer css*/
     
@@ -174,17 +213,4 @@ background: black;
     
     
 /*---*/
-
-
-
-.column30 {
-
- 	float: left;
-
-    width:30%;
-
-
-
-}
-
 
