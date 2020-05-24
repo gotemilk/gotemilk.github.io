@@ -3,6 +3,12 @@
 html
 { margin: 0 auto;
 max-width: 700px; }
+
+body {
+	background-color: #ffd31c;
+    margin: 0px 3% -5px;
+    }
+
 /*middle css*/
 .goldimagetext {margin: 0;
 padding-right: 5px;
@@ -17,6 +23,83 @@ background: #fa4251;
 font-family: georgia;
 padding: 2px;
 }
+
+/*these are the menu on the front image*/
+    
+#rcorners1 {
+	border-radius: 4px 4px;
+  color: black;
+    background: #fa4251;
+    padding: 5px 10px 0px 0px;
+    line-height: 70px;
+    margin: 5px;
+    }
+    
+    
+    #rcorners2 {
+	border-radius: 4px 4px;
+    background: #ffd31c;
+      
+    color: #fa4251;
+    padding: 5px 10px 0px 0px;
+    line-height: 70px;
+    margin: 5px;
+    }
+ 
+    #rcorners3 {
+	border-radius: 4px 4px;
+    background: black;
+    color: #ffd31c;
+    padding: 5px 10px 0px 0px;
+    line-height: 70px;
+    margin: 5px;
+    }
+    
+    p.solid {
+        float: left;
+        text-align: center;
+        font-family: helvetica-bold, arial black;
+        font-size: 85px;
+     
+        }
+       p:hover {text-decoration: underline}
+
+
+
+/*the main categories on the home page*/
+          .gold {
+    color: #ffd31c;
+    background-color: #fa4251; 
+  font: italic bold 65px/45px helvetica, sans-serif;
+ padding-right: 8px; }
+  
+
+
+      .main-topics {
+        background-color:#fa4251; 
+        font: bold 65px/50px arial rounded mt bold;
+        padding-top: 3px;
+        }
+        
+        
+        
+        
+          /*COLUMNS*/
+  /* clearfix (clear floats)*/
+.row::after {
+	content: "";
+    clear: both;
+    display: table;
+}
+    
+    
+* {
+	box-sizing: border-box;
+    }
+    
+    
+blockquote 
+    {width:100%;}
 
 /*CONTAINER CODE*/
 div.container
@@ -48,11 +131,16 @@ div.container
     bottom: 6%;
     right: 4%;
     }
-     div.blurb { text-align: right;
+
+
+     .blurb { 
+       color: black;
+       text-align: right;
     position: absolute;
-    top: 2%;
+    top: 0%;
     right: 5%;
     }
+
  div.top-right { text-align: right;
     position: absolute;
     top: -7%;
@@ -63,80 +151,20 @@ div.container
     top: 7%;
     right: 5%;
     }
-    
-#rcorners1 {
-	border-radius: 4px 4px;
-    background: #fa4251;
-    padding: 5px 10px 0px 0px;
-    line-height: 70px;
-    margin: 5px;
-    }
-    
-    
-    #rcorners2 {
-	border-radius: 4px 4px;
-    background: #ffd31c;
-    color: #fa4251;
-    padding: 5px 10px 0px 0px;
-    line-height: 70px;
-    margin: 5px;
-    }
-    
-    p.solid {
-        float: left;
-        text-align: center;
-        font-family: helvetica-bold, arial black;
-        font-size: 90px;
-     
-        }
-       p:hover {text-decoration: underline}
-          .gold {
-    color: #ffd31c;
-    background-color: #fa4251; 
-  font: italic bold 65px/65px helvetica, sans-serif;
- padding-right: 8px; }
-  
-      .main-topics {
-        background-color:#fa4251; 
-        font: bold 90px/75px arial rounded mt bold;
-        padding-top: 3px;
-        }
-        
-        
-        
-        
-          /*COLUMNS*/
-  /* clearfix (clear floats)*/
-.row::after {
-	content: "";
-    clear: both;
-    display: table;
-}
-    
-    
-* {
-	box-sizing: border-box;
-    }
-    
-    
-blockquote 
-    {width:100%;}
+
     
 /*---*/
 
  
     /*links*/
-    a {
-color: black;
-text-decoration: none;
-}
-a:hover {
+a:hover { 
 text-decoration: underline;
 }
 
+a {text-decoration: none;}
+
 a.top {
-color: white;
-text-decoration: none;}
+color: white;}
 
  /*title bar css*/
  
@@ -162,10 +190,7 @@ background: black;
     
     
 /*---*//*overworld*/
-body {
-	background-color: #ffd31c;
-    margin: 0px 3% -5px;
-    }
+
     
   /* clearfix (clear floats)*/
 .row::after {
@@ -183,14 +208,7 @@ body {
 blockquote 
     {width:100%;}
     
-    /*links*/
-    a {
-color: black;
-text-decoration: none;
-}
-a:hover {
-text-decoration: underline;
-}
+
  /*title bar css*/
  
   .gotemilk { 
