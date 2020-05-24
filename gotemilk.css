@@ -86,132 +86,8 @@
         
         
         
- /*ccccc----[COORDINATES]-----sssss*/
- 	div.top-left { 
-    	text-align: left;
-    	position: absolute;
-    	top: 0%;
-    	left: 0%;
-    	} 
-   
-	div.top-right {text-align: right;
-    	position: absolute;
-    	top: 2%;
-    	right: 2%;
-    	}
-   div.middle { 
-    	text-align: center;
-    	position: absolute;
-    	top: 5%;
-    	right: 20%;
-    	left: 20%;
-    	}
-         div.middle2 { 
-    	text-align: center;
-    	position: absolute;
-    	top: 5%;
-    	right: 40%;
-    	left: 40%;
-    	}
-    div.middle-bottom { 
-    	text-align: center;
-    	position: absolute;
-    	bottom: 5%;
-    	right: 40%;
-    	left: 40%;
-    	}
-    div.bottom-left {
-    	position: absolute;
-    	bottom: 0%;
-    	left: 10%;
-    	}
-    
-    
-    div.bottom-left2 { 
-    	text-align: left;
-    	position: absolute;
-    	bottom: 10%;
-    	left: 2%;
-    	}
-   
-    div.bottom-right {
-    	position: absolute;
-    	bottom: 5%;
-    	right: 8%;
-    	}
-       
-       
-    div.bottom-right2 {
-    	position: absolute;
-    	bottom: 1%;
-    	right: 2%;
-    	}
-    
-      
-     /*cccccc[CONTAINERS]sssssss*/
-    div.container {
-		position: relative;
-    	text-align: center;
-    	color: black;
-    	}
-    
-    div.containercolumn {
-		position: relative;
-    	text-align: center;
-    	color: black;
-    	float: left;
-    	width:25%;
-    	padding: .5px .5px .5px .5px }
-    
-    
-    
-    div.containercolumn66 {
-		position: relative;
-    	text-align: center;
-    	color: black;
-    	float: left;
-    	width:66.66%;
-    	padding: .5px .5px .5px .5px 
-    	}
-    
-    div.containercolumn50 {
-		position: relative;
-    	text-align: left;
-    	color: black;
-    	float: left;
-    	width:50%;
-    	padding: .5px .5px .5px .5px }
 
 
-/*CCCCCCCC[COLUMNS]SSSSSSSSS*/
- 
- 
-	.row::after {
-		content: "";
-    	clear: both;
-    	display: table;
-		}
-        
-	* {
-		box-sizing: border-box;
-   		}
-        
-    blockquote {
-    	width:100%;
-        }
-
-
-
-
-.column30 {
-
- 	float: left;
-
-    width:30%;
-
-
-
-}
 
 
 
@@ -279,6 +155,138 @@ color: white;}
         color: white; 
 		}
         
+
+
+
+
+
+/*CCCCCCCC[COLUMNS]SSSSSSSSS*/
+ 
+ 
+	.row::after {
+		content: "";
+    	clear: both;
+    	display: table;
+		}
+        
+	* {
+		box-sizing: border-box;
+   		}
+        
+    blockquote {
+    	width:100%;
+        }
+
+
+
+
+.column30 {
+
+ 	float: left;
+
+    width:30%;
+
+
+
+}
+
+      
+     /*cccccc[CONTAINERS]sssssss*/
+    div.container {
+		position: relative;
+    	text-align: center;
+    	color: black;
+    	}
+    
+    div.containercolumn {
+		position: relative;
+    	text-align: center;
+    	color: black;
+    	float: left;
+    	width: 25%;
+    	padding: .5px .5px .5px .5px }
+    
+    
+    
+    div.containercolumn66 {
+		position: relative;
+    	text-align: center;
+    	color: black;
+    	float: left;
+    	width:66.66%;
+    	padding: .5px .5px .5px .5px 
+    	}
+    
+    div.containercolumn50 {
+		position: relative;
+    	text-align: left;
+    	color: black;
+    	float: left;
+    	width:50%;
+    	padding: .5px .5px .5px .5px }
+
+
+ /*ccccc----[COORDINATES]-----sssss*/
+ 	div.top-left { 
+    	text-align: left;
+    	position: absolute;
+    	top: 0%;
+    	left: 0%;
+    	} 
+   
+	div.top-right {text-align: right;
+    	position: absolute;
+    	top: 2%;
+    	right: 2%;
+    	}
+   div.middle { 
+    	text-align: center;
+    	position: absolute;
+    	top: 5%;
+    	right: 20%;
+    	left: 20%;
+    	}
+         div.middle2 { 
+    	text-align: center;
+    	position: absolute;
+    	top: 5%;
+    	right: 40%;
+    	left: 40%;
+    	}
+    div.middle-bottom { 
+    	text-align: center;
+    	position: absolute;
+    	bottom: 5%;
+    	right: 40%;
+    	left: 40%;
+    	}
+    div.bottom-left {
+    	position: absolute;
+    	bottom: 0%;
+    	left: 10%;
+    	}
+    
+    
+    div.bottom-left2 { 
+    	text-align: left;
+    	position: absolute;
+    	bottom: 10%;
+    	left: 2%;
+    	}
+   
+    div.bottom-right {
+    	position: absolute;
+    	bottom: 5%;
+    	right: 8%;
+    	}
+       
+       
+    div.bottom-right2 {
+    	position: absolute;
+    	bottom: 1%;
+    	right: 2%;
+    	}
+    
         
 /*++++++[ footer ]++++++++*/
 
