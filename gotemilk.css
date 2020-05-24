@@ -160,7 +160,7 @@
     	text-align: center;
     	color: black;
     	float: left;
-    	width:20%;
+    	width:25%;
     	padding: .5px .5px .5px .5px }
     
     
@@ -183,9 +183,6 @@
     	padding: .5px .5px .5px .5px }
 
 
-
-/*237492835234[ PASTEABLE STOCK ]2348037502384*/
-
 /*CCCCCCCC[COLUMNS]SSSSSSSSS*/
  
  
@@ -202,6 +199,19 @@
     blockquote {
     	width:100%;
         }
+
+
+
+
+.column30 {
+
+ 	float: left;
+
+    width:30%;
+
+
+
+}
 
 
 
@@ -280,15 +290,3 @@ color: white;}
     
     
 /*---*/
-
-
-
-.column30 {
-
- 	float: left;
-
-    width:30%;
-
-
-
-}
