@@ -1,5 +1,14 @@
+/*blurb*/
+     .blurb { 
+       color: black;
+       text-align: right;
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    }
+
 /*these are the menu on the front image*/
-    
+
 #rcorners1 {
 	border-radius: 4px 4px;
   color: black;
