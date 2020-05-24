@@ -1,15 +1,29 @@
 
-
 html
 { margin: 0 auto;
 max-width: 700px; }
 
 body {
 	background-color: #ffd31c;
-    margin: 0px 3% -5px;
     }
 
+/*GENERAL TEXT*/
+.price {
+  font-size:40px; 
+  font-family:georgia; 
+  margin: 0px;
+}
+.shipping { margin: 10px 0px;
+  background-color: black;
+  color: #b0b0b0; 
+  line-height: 30px;
+  font-family: courier; 
+  font-size: 23px;
+  text-align: right;
+}
+.info {margin: 12px; font-family: courier; font-size:30px;}
 
+.credits {width: 100%; text-align: center; font-family: courier; font-size:16px;}
  
     /*links*/
 
@@ -62,7 +76,7 @@ font-size: 70px;
 font-weight: 600;
 }
 
-.categories/*redundant, moved to subTitle*/ {
+/*.categories redundant, moved to subTitle {
  
 font-family: arial rounded mt bold, helvetica; 
 margin:0px; 
@@ -70,12 +84,12 @@ line-height:70px;
 font-size: 70px;
 font-weight: 600;
 	}
-
+*/
 
 /*middle css*/
 .backflag {background-color:#fa4251; margin-left: -3px; padding: 10px 8px 10px 30px; font-family:hiragino kaku gothic std, arial-black, helvetica; color: black; font-size:15px;}
 
-.goldimagetext {margin: 0;
+/*.goldimagetext {margin: 0;
 padding-right: 5px;
 color:#ffd31c; 
 background-color:#fa4251; 
@@ -87,10 +101,18 @@ font-size: 100px;
 background: #fa4251;
 font-family: georgia;
 padding: 2px;
-}
+}*/
 
           /*COLUMNS*/
 
+.column25 {
+  float: left; padding: 8px; width: 25%; text-align: center;}
+
+.column50 { float: left;
+position: relative;
+  width: 50%;
+    text-align: center;
+}
 
 .column30 {
 
@@ -103,16 +125,22 @@ div.column33
     text-align: left;
     color: black;
     	float: left;
-    width:40%;}
+    width:33%;}
 
 div.column66
     {position: relative;
     text-align: center;
     color: black;
     	float: left;
-    width:60%;}
+    width:66%;}
 
-
+.column100 { margin: 0px;;
+  position: relative;
+  float: left;
+  text-align: center;
+  color: black;
+  width:100%;
+}
  
     
   /* clearfix (clear floats)*/
