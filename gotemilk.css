@@ -23,7 +23,7 @@ body {
 }
 .info {margin: 12px; font-family: courier; font-size:30px;}
 
-.credits {width: 100%; text-align: center; font-family: courier; font-size:16px;}
+.credits {width: 100%; text-align: center; font-family: courier; font-size:14px;}
  
     /*links*/
 
@@ -49,7 +49,7 @@ a:active { color: white; }
 
 .topStripMenu {word-spacing: 15px;text-decoration:none; letter-spacing: 5px; line-height:24px; background-color:black; color: white; font-size: 16px; font-family: courier new; MARGIN-bottom:2px;}
 
-.label {text-align:center; padding: 0px 0px 0px 0px; background-color:#fa4251; font-family: helvetica; margin: 0%; letter-spacing: -5px; font-family: helvetica, arial rounded mt bold; font-size:90px; line-height: 86px;}
+.label { text-align:center; padding-top: 30px; background-color:#fa4251; font-family: helvetica; margin: 0px; letter-spacing: -15px; font-family: helvetica, arial rounded mt bold; font-size:160px; line-height: 80px;}
 .subLabel {letter-spacing: -2px; font-family: helvetica;font-size:30px}
 
 .tickerTape {line-height:14px; background-color:black; color: white; font-size: 12px; font-family: courier new;margin-top: -20px;}
