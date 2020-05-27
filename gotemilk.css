@@ -1,13 +1,5 @@
 
-html
-{ margin: 0 auto;
-max-width: 700px; }
-
-body {
-	background-color: #ffd31c;
-    }
-
-/*GENERAL TEXT*/
+/*PRODUCT PAGE*/
 .price {
   font-size:40px; 
   font-family:georgia; 
@@ -21,87 +13,58 @@ body {
   font-size: 23px;
   text-align: right;
 }
+.sizeBox {width:100px;height: 40px;font-size:20px;}
+
 .info {margin: 12px; font-family: courier; font-size:30px;}
 
-.credits {width: 100%; text-align: center; font-family: courier; font-size:12px;}
- 
-    /*links*/
+.credits {width: 100%; text-align: center; font-family: courier; font-size:16px;}
 
-a:link { color:white; text-decoration:none; }
-a:visited { color:white; }
-a:hover { text-decoration: underline;}
-a:active { color: white; }
+.label { text-align:center; background-color:#fa4251; font-family: helvetica; margin: 0px; letter-spacing: -15px; font-family: helvetica, arial rounded mt bold; font-size:160px;}
 
- /*title bar css*/
- 
-  .gotemilk { 
- 	padding: 5px 0px 0px 0px;
-	float: left;
-    width:80%;
-}
- 
- .socialmedia { padding: 10px 10px 0px 0px;
-	float: left;
-    width: 20%}
-    
-     
-   
-
-.topStripMenu {word-spacing: 15px;text-decoration:none; letter-spacing: 5px; line-height:24px; background-color:black; color: white; font-size: 16px; font-family: courier new; MARGIN-bottom:2px;}
-
-.label { text-align:center; padding-top: 30px; background-color:#fa4251; font-family: helvetica; margin: 0px; letter-spacing: -15px; font-family: helvetica, arial rounded mt bold; font-size:160px; line-height: 80px;}
 .subLabel {letter-spacing: -2px; font-family: helvetica;font-size:30px}
 
 .tickerTape {line-height:14px; background-color:black; color: white; font-size: 12px; font-family: courier new;margin-top: -20px;}
 
-.title/*off*/ {
-    	font-size:140px; 
-        padding-left: 60px; 		 				
-        background-color:#fa4251; 
-        font-family: helvetica; 
-        margin:0px; 
-        line-height:130px; 			
-        letter-spacing: -20px }
+/*overworld*/
 
 
-.subTitle/*off*/ {
-  line-height: 0px; 
-  text-align: right; 
-  padding-right: 5%; 
-  margin-top: 0%; 
-  text-decoration:none;
-font-family: arial rounded mt bold, helvetica; 
-margin:0px; 
-font-size: 70px;
-font-weight: 600;
-}
+html
+{ margin: 0 auto;
+max-width: 700px; }
 
-/*.categories redundant, moved to subTitle {
+body {
+	background-color: #ffd31c;
+    }
+
+a:link { color:blue; text-decoration:none; }
+a.topMenu:link { color:white;}
+a.bottomMenu:link { color:#b0b0b0;}
+
+a:visited { color:blue; }
+a.topMenu:visited {color: white;}
+a.bottomMenu:visited { color: #b0b0b0; }
+
+a:hover { text-decoration: underline;}
+a:active { color: blue; }
+a.topmenu:active {color:white;}
+a.bottomMenu:active { color: #b0b0b0; }
+
+ /*the header and title bar and menu*/
  
-font-family: arial rounded mt bold, helvetica; 
-margin:0px; 
-line-height:70px; 
-font-size: 70px;
-font-weight: 600;
-	}
-*/
-
-/*middle css*/
-.backflag {background-color:#fa4251; margin-left: -3px; padding: 10px 8px 10px 30px; font-family:hiragino kaku gothic std, arial-black, helvetica; color: black; font-size:15px;}
-
-/*.goldimagetext {margin: 0;
-padding-right: 5px;
-color:#ffd31c; 
-background-color:#fa4251; 
-line-height: 20px;
+  div.gotemilk { 
+ 	padding-top: 5px;
+	float: left;
+    width:80%;
 }
-.image-text
-{margin: 0;
-font-size: 100px;
-background: #fa4251;
-font-family: georgia;
-padding: 2px;
-}*/
+
+ div.socialmedia {
+	float: left;
+    width: 20%} 
+.socialMediaIcons {width:100%; padding-top: 15px;}
+
+.topMenu {margin-top: 0px; text-align: center; word-spacing: 15px;letter-spacing: 5px; line-height:24px; background-color:black; color: white; font-size: 16px; font-family: courier new;}
+
+
 
           /*COLUMNS*/
 
@@ -149,8 +112,7 @@ div.column66
     clear: both;
     display: table;
 }
-    
-    
+        
 * {
 	box-sizing: border-box;
     }
@@ -201,9 +163,65 @@ div.top-right {
 
        /*footer css*/
     
- 
+ .backflag {background-color:#fa4251; margin-left: -3px; padding: 10px 8px 10px 30px; font-family:hiragino kaku gothic std, arial-black, helvetica; color: black; font-size:15px;}
+
   #site-footer {
    width: 100%;
    height:210px;
 background: black;
 }
+
+
+.bottomMenu {color:#b0b0b0; font-family:COURIER; font-size:30px;}
+
+/*dead code: 
+
+/*.title off {
+    	font-size:140px; 
+        padding-left: 60px; 		 				
+        background-color:#fa4251; 
+        font-family: helvetica; 
+        margin:0px; 
+        line-height:130px; 			
+        letter-spacing: -20px }*/
+
+
+/*.subTitle off {
+  line-height: 0px; 
+  text-align: right; 
+  padding-right: 5%; 
+  margin-top: 0%; 
+  text-decoration:none;
+font-family: arial rounded mt bold, helvetica; 
+margin:0px; 
+font-size: 70px;
+font-weight: 600;
+}*/
+
+
+/*middle css*/
+
+
+/*.goldimagetext {margin: 0;
+padding-right: 5px;
+color:#ffd31c; 
+background-color:#fa4251; 
+line-height: 20px;
+}
+.image-text
+{margin: 0;
+font-size: 100px;
+background: #fa4251;
+font-family: georgia;
+padding: 2px;
+}*/
+
+/*.categories redundant, moved to subTitle {
+ 
+font-family: arial rounded mt bold, helvetica; 
+margin:0px; 
+line-height:70px; 
+font-size: 70px;
+font-weight: 600;
+	}
+*/
