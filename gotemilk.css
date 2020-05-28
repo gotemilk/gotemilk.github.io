@@ -18,13 +18,14 @@ a:link { color:blue; text-decoration:none; }
 a.topMenu:link { color:white;}
 a.bottomMenu:link { color:#b0b0b0;}
 
+a.test:hover {text-decoration:underline}
+
 a:visited { color:blue; }
 a.topMenu:visited {color: white;}
 a.bottomMenu:visited { color: #b0b0b0; }
-
 a:hover { text-decoration: underline;}
 a:active { color: blue; }
-a.topmenu:active {color:white;}
+a.topMenu:active {color:white;}
 a.bottomMenu:active { color: #b0b0b0; }
 
  /*the header and title bar and menu*/
@@ -40,6 +41,7 @@ a.bottomMenu:active { color: #b0b0b0; }
 .socialMediaIcons {width:100%;}
 
 .topMenu {margin-top:-35px;text-align: center; word-spacing: 15px;letter-spacing: 5px; line-height:24px; background-color:black; color: white; font-size: 16px; font-family: courier new;}
+
 
 
 
@@ -85,15 +87,13 @@ a.bottomMenu:active { color: #b0b0b0; }
     line-height: 70px;
     margin: 5px;
     }
-    
+
     p.solid {
         float: left;
-        text-align: center;
         font-family: helvetica-bold, arial black;
         font-size: 85px;
-     
         }
-       p:hover {text-decoration: underline}
+p.solid:hover {text-decoration:underline;}
 
 
           .gold {
@@ -101,7 +101,7 @@ a.bottomMenu:active { color: #b0b0b0; }
     background-color: #fa4251; 
   font: italic bold 65px/45px helvetica, sans-serif;
  padding-right: 8px; }
-  
+
 
 
       .main-topics {
@@ -109,7 +109,7 @@ a.bottomMenu:active { color: #b0b0b0; }
         font: bold 65px/50px arial rounded mt bold;
         padding-top: 3px;
         }
-
+.main-topics:hover {text-decoration:underline;}
 
 
 /*PRODUCT PAGE*/
@@ -131,13 +131,12 @@ color:black;
 
     
 .price {
-  font-size:40px; 
+  font-size:45px; 
   font-family:georgia; 
-  margin: 0px;
+  margin: 5px 0px 20px 40px;
 }
-.shipping { margin: 10px 0px;
-  background-color: black;
-  color: #b0b0b0; 
+.shipping { 
+  color: black; 
   line-height: 30px;
   font-family: courier; 
   font-size: 23px;
@@ -145,9 +144,9 @@ color:black;
 }
 .sizeBox {width:100px;height: 40px;font-size:20px;}
 
-.info {margin: 12px; font-family: courier; font-size:30px;}
+.info {margin: 15px -50px 0px 10px; font-family: courier; font-size:30px;}
 
-.credits {width: 100%; text-align: center; font-family: courier; font-size:16px;}
+.credits {background-color: #ffbb04;width: 100%; text-align: center; font-family: courier; font-size:16px;margin: 0; padding: 10px 0px}
 
           /*COLUMNS*/
 
@@ -180,11 +179,9 @@ div.column66
     	float: left;
     width:66%;}
 
-.column100 { margin: 0px;
+.column100 { 
   position: relative;
   float: left;
-  text-align: center;
-  color: black;
   width:100%;
 }
  
