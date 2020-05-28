@@ -41,6 +41,77 @@ a.bottomMenu:active { color: #b0b0b0; }
 
 .topMenu {margin-top:-35px;text-align: center; word-spacing: 15px;letter-spacing: 5px; line-height:24px; background-color:black; color: white; font-size: 16px; font-family: courier new;}
 
+
+
+
+/*HOME PAGE CSS*/
+
+/*blurb*/
+     .blurb { 
+       color: black;
+       text-align: right;
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    }
+
+/*these are for the menu on the intro image*/
+
+#rcorners1 {
+	border-radius: 4px 4px;
+  color: black;
+    background: #fa4251;
+    padding: 5px 10px 0px 0px;
+    line-height: 70px;
+    margin: 5px;
+    }
+    
+    
+    #rcorners2 {
+	border-radius: 4px 4px;
+    background: #ffd31c;
+      
+    color: #fa4251;
+    padding: 5px 10px 0px 0px;
+    line-height: 70px;
+    margin: 5px;
+    }
+ 
+    #rcorners3 {
+	border-radius: 4px 4px;
+    background: black;
+    color: #ffd31c;
+    padding: 5px 10px 0px 0px;
+    line-height: 70px;
+    margin: 5px;
+    }
+    
+    p.solid {
+        float: left;
+        text-align: center;
+        font-family: helvetica-bold, arial black;
+        font-size: 85px;
+     
+        }
+       p:hover {text-decoration: underline}
+
+
+          .gold {
+    color: #ffd31c;
+    background-color: #fa4251; 
+  font: italic bold 65px/45px helvetica, sans-serif;
+ padding-right: 8px; }
+  
+
+
+      .main-topics {
+        background-color:#fa4251; 
+        font: bold 65px/50px arial rounded mt bold;
+        padding-top: 3px;
+        }
+
+
+
 /*PRODUCT PAGE*/
 
 .label { text-align:center; background-color:#fa4251; margin: 0px 0px -40px 0px; letter-spacing: -15px; font-family: helvetica, arial rounded mt bold; font-size:160px;line-height:130px;}
