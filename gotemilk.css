@@ -51,17 +51,16 @@ a.bottomMenu:active { color: #b0b0b0; }
  /*the header and title bar and menu*/
  
   div.gotemilk { 
- 	padding-top: 5px;
 	float: left;
-    width:80%;
+    width:75%;
 }
 
  div.socialmedia {
 	float: left;
-    width: 20%} 
-.socialMediaIcons {width:100%; padding-top: 15px;}
+    width: 25%} 
+.socialMediaIcons {width:100%;}
 
-.topMenu {margin-top: 0px; text-align: center; word-spacing: 15px;letter-spacing: 5px; line-height:24px; background-color:black; color: white; font-size: 16px; font-family: courier new;}
+.topMenu {margin-top:-35px;text-align: center; word-spacing: 15px;letter-spacing: 5px; line-height:24px; background-color:black; color: white; font-size: 16px; font-family: courier new;}
 
 
 
@@ -96,7 +95,7 @@ div.column66
     	float: left;
     width:66%;}
 
-.column100 { margin: 0px;;
+.column100 { margin: 0px;
   position: relative;
   float: left;
   text-align: center;
@@ -106,7 +105,7 @@ div.column66
  
     
   /* clearfix (clear floats)*/
-.row::after {
+.row::after { 
 	content: "";
     clear: both;
     display: table;
