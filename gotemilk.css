@@ -1,4 +1,28 @@
+/*PRODUCT PAGE*/
+.price {
+  font-size:40px; 
+  font-family:georgia; 
+  margin: 0px;
+}
+.shipping { margin: 10px 0px;
+  background-color: black;
+  color: #b0b0b0; 
+  line-height: 30px;
+  font-family: courier; 
+  font-size: 23px;
+  text-align: right;
+}
+.sizeBox {width:100px;height: 40px;font-size:20px;}
 
+.info {margin: 12px; font-family: courier; font-size:30px;}
+
+.credits {width: 100%; text-align: center; font-family: courier; font-size:16px;}
+
+.label { text-align:center; background-color:#fa4251; font-family: helvetica; margin: 0px; letter-spacing: -15px; font-family: helvetica, arial rounded mt bold; font-size:160px;}
+
+.subLabel {letter-spacing: -2px; font-family: helvetica;font-size:30px}
+
+.tickerTape {line-height:14px; background-color:black; color: white; font-size: 12px; font-family: courier new;margin-top: -20px;}
 
 /*overworld*/
 
@@ -39,97 +63,6 @@ a.bottomMenu:active { color: #b0b0b0; }
 
 .topMenu {margin-top: 0px; text-align: center; word-spacing: 15px;letter-spacing: 5px; line-height:24px; background-color:black; color: white; font-size: 16px; font-family: courier new;}
 
-
-/*PRODUCT PAGE*/
-.price {
-  font-size:40px; 
-  font-family:georgia; 
-  margin: 0px;
-}
-.shipping { margin: 10px 0px;
-  background-color: black;
-  color: #b0b0b0; 
-  line-height: 30px;
-  font-family: courier; 
-  font-size: 23px;
-  text-align: right;
-}
-.sizeBox {width:100px;height: 40px;font-size:20px;}
-
-.info {margin: 12px; font-family: courier; font-size:30px;}
-
-.credits {width: 100%; text-align: center; font-family: courier; font-size:16px;}
-
-.label { text-align:center; background-color:#fa4251; font-family: helvetica; margin: 0px; letter-spacing: -15px; font-family: helvetica, arial rounded mt bold; font-size:160px;}
-
-.subLabel {letter-spacing: -2px; font-family: helvetica;font-size:30px}
-
-.tickerTape {line-height:14px; background-color:black; color: white; font-size: 12px; font-family: courier new;margin-top: -20px;}
-/*HOME PAGE CSS*/
-
-/*blurb*/
-     .blurb { 
-       color: black;
-       text-align: right;
-    position: absolute;
-    top: 0%;
-    right: 5%;
-    }
-
-/*these are for the menu on the intro image*/
-
-#rcorners1 {
-	border-radius: 4px 4px;
-  color: black;
-    background: #fa4251;
-    padding: 5px 10px 0px 0px;
-    line-height: 70px;
-    margin: 5px;
-    }
-    
-    
-    #rcorners2 {
-	border-radius: 4px 4px;
-    background: #ffd31c;
-      
-    color: #fa4251;
-    padding: 5px 10px 0px 0px;
-    line-height: 70px;
-    margin: 5px;
-    }
- 
-    #rcorners3 {
-	border-radius: 4px 4px;
-    background: black;
-    color: #ffd31c;
-    padding: 5px 10px 0px 0px;
-    line-height: 70px;
-    margin: 5px;
-    }
-    
-    p.solid {
-        float: left;
-        text-align: center;
-        font-family: helvetica-bold, arial black;
-        font-size: 85px;
-     
-        }
-       p:hover {text-decoration: underline}
-
-
-          .gold {
-    color: #ffd31c;
-    background-color: #fa4251; 
-  font: italic bold 65px/45px helvetica, sans-serif;
- padding-right: 8px; }
-  
-
-
-      .main-topics {
-        background-color:#fa4251; 
-        font: bold 65px/50px arial rounded mt bold;
-        padding-top: 3px;
-        }
 
 
           /*COLUMNS*/
@@ -241,7 +174,6 @@ background: black;
 .bottomMenu {color:#b0b0b0; font-family:COURIER; font-size:30px;}
 
 /*dead code: 
-
 /*.title off {
     	font-size:140px; 
         padding-left: 60px; 		 				
