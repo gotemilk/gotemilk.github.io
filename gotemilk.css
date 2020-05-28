@@ -1,38 +1,4 @@
-/*PRODUCT PAGE*/
 
-    #middle {
-  position:static;
-  width:700px;
-  height:530px;
-  background:#ffab04;
-color:black;
-}
-
-    
-.price {
-  font-size:40px; 
-  font-family:georgia; 
-  margin: 0px;
-}
-.shipping { margin: 10px 0px;
-  background-color: black;
-  color: #b0b0b0; 
-  line-height: 30px;
-  font-family: courier; 
-  font-size: 23px;
-  text-align: right;
-}
-.sizeBox {width:100px;height: 40px;font-size:20px;}
-
-.info {margin: 12px; font-family: courier; font-size:30px;}
-
-.credits {width: 100%; text-align: center; font-family: courier; font-size:16px;}
-
-.label { text-align:center; background-color:#fa4251; margin: 0px 0px -40px 0px; letter-spacing: -15px; font-family: helvetica, arial rounded mt bold; font-size:160px;line-height:130px;}
-
-.subLabel {letter-spacing: -2px; font-family: helvetica;font-size:30px}
-
-.tickerTape {line-height:14px; background-color:black; color: white; font-size: 12px; font-family: courier new;margin-top: -20px;}
 
 /*overworld*/
 
@@ -75,7 +41,42 @@ a.bottomMenu:active { color: #b0b0b0; }
 
 .topMenu {margin-top:-35px;text-align: center; word-spacing: 15px;letter-spacing: 5px; line-height:24px; background-color:black; color: white; font-size: 16px; font-family: courier new;}
 
+/*PRODUCT PAGE*/
 
+.label { text-align:center; background-color:#fa4251; margin: 0px 0px -40px 0px; letter-spacing: -15px; font-family: helvetica, arial rounded mt bold; font-size:160px;line-height:130px;}
+
+.subLabel {letter-spacing: -2px; font-family: helvetica;font-size:30px}
+
+.tickerTape {line-height:14px; background-color:black; color: white; font-size: 12px; font-family: courier new;margin-top: -20px;}
+
+
+    #middle {
+  position:static;
+  width:700px;
+  height:530px;
+  background:#ffab04;
+color:black;
+}
+
+    
+.price {
+  font-size:40px; 
+  font-family:georgia; 
+  margin: 0px;
+}
+.shipping { margin: 10px 0px;
+  background-color: black;
+  color: #b0b0b0; 
+  line-height: 30px;
+  font-family: courier; 
+  font-size: 23px;
+  text-align: right;
+}
+.sizeBox {width:100px;height: 40px;font-size:20px;}
+
+.info {margin: 12px; font-family: courier; font-size:30px;}
+
+.credits {width: 100%; text-align: center; font-family: courier; font-size:16px;}
 
           /*COLUMNS*/
 
