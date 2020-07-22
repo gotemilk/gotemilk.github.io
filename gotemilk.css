@@ -215,9 +215,9 @@ div.top-left    {
     top: 4%;
     left: 4%;
     }
-div.bottom-left {
+div.bottomLeft {
     position: absolute;
-    bottom: 8%;
+    bottom: 4%;
     left: 4%;
     }
 div.bottom-right    {
