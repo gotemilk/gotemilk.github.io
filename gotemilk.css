@@ -5,7 +5,7 @@
 
 html
 { margin: 0 auto;
-max-width: 700px; }
+max-width: 900px; }
 
 body {
 	background-color: #ffd31c;
@@ -70,7 +70,7 @@ a.top {color: white;}
   text-decoration:none;
 font-family: arial rounded mt bold, helvetica; 
 margin:0px; 
-font-size: 70px;
+font-size: 50px;
 font-weight: 600;
 }
 
@@ -268,7 +268,7 @@ blockquote
   float: left; padding: 8px; width: 25%; text-align: center;}
 
 .column50 { float: left;
-	padding: 3px;
+ padding: 3px;
 position: relative;
   width: 50%;
     text-align: center;
