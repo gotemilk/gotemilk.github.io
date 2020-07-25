@@ -207,19 +207,34 @@ color:black;
 
     
 
-    
 /*CONTAINER & COORDINATES*/
-div.container {
+    
+     div.container {
 	position: relative;
     text-align: center;
     color: black;
-    }
+    }   
+          div.containerColumn50 {
+	position: relative;
+    text-align: center;
+    color: black;
+
+float: left;
+ padding: 3px;
+position: relative;
+  width: 50%;
+    text-align: center;
+
+    }   
+                
+        
 div.top-left    {
     position: absolute;
     top: 4%;
     left: 4%;
     }
-div.bottom-left {
+
+         div.bottom-left {
     position: absolute;
     bottom: 8%;
     left: 4%;
@@ -228,13 +243,21 @@ div.bottom-right    {
     position: absolute;
     bottom: 6%;
     right: 4%;
-    }
-div.top-right { 
+    }/*
+ div.bottom-right {width: 100%; 
+          margin-bottom: 0px;
+    	position: absolute;
+        align: right;
+    	bottom: -24%;
+    	right: -30%;}*/
+
+        div.top-right { 
     text-align: right;
     position: absolute;
     top: -7%;
     right: 5%;
     }
+
  div.top-right2 { 
     text-align: right;
     position: absolute;
@@ -262,6 +285,16 @@ div.top-right {
     
 blockquote 
     {width:100%;}
+
+
+
+
+.column {
+ 	float: left;
+    width:33.33%;
+    padding: 5px;
+
+}
 
 
 .column25 {
@@ -307,14 +340,6 @@ div.column66
 
 
 
-.column {
- 	float: left;
-    width:33.33%;
-    padding: 5px;
-
-}
-
-
 .column1 {
 	float: left;
     width: 14%;
@@ -356,37 +381,6 @@ background: black;
 
 /*middle css*/
    
-       div.container {
-		position: relative;
-    	text-align: center;
-    	color: black;
-    	}
-         div.bottom-left {
-    position: absolute;
-    bottom: 8%;
-    left: 4%;
-    }
-        
-        div.top-right { 
-    text-align: right;
-    position: absolute;
-    top: -7%;
-    right: 5%;
-    }
- div.top-right2 { 
-    text-align: right;
-    position: absolute;
-    top: 7%;
-    right: 5%;
-    }
-        
-              div.bottom-right {width: 100%; 
-          margin-bottom: 0px;
-    	position: absolute;
-        align: right;
-    	bottom: -24%;
-    	right: -30%;}
-        
         
         .hoverlink { color: #ffd31c ;
         background-color: #fa4251;
