@@ -37,15 +37,16 @@ a.top {color: white;}
 
  	
  
-  div.gotemilk { 
-	float: left;
-    width:75%;
+  div.gotemilk {
+float: left;
+width:75%;
 }
  
 
  div.socialmedia {
 	float: left;
     width: 25%} 
+
 
 .socialMediaIcons {width:100%;}
     
@@ -409,10 +410,6 @@ background: black;
         h1
         { margin: -20px 0px 0px 0px;
       }
-      
 
-
-
-
-
+     
     
