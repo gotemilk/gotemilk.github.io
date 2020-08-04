@@ -12,7 +12,7 @@
 /*LLLLLLLLL[ links ]SSSSSSSSS*/
 
     a {
-		color: #ffffff;
+		color: #000000;
 		text-decoration: none;
 		}
 	a:hover {
@@ -20,7 +20,7 @@
 		}
         
 a.top { line-height: 80px; padding: 10px 4px 0px 4px;
-  color: white; background-color:black; color: white; font-size: 60px; font-family: grotesque mt std;}
+  color: white; background-color:black; color: white; font-size: 55px; font-family: grotesque mt std;}
 
       
  /*title bar css*/
@@ -31,7 +31,7 @@ a.top { line-height: 80px; padding: 10px 4px 0px 4px;
     width:90%;
 } 
  
- .socialmedia { padding: 10px 10px 0px 0px;
+ .socialmedia { position: absolute; left: 25px; top: 0px;
 	float: left;
     width: 20%}
     
