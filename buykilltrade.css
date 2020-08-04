@@ -19,8 +19,8 @@
 		text-decoration: underline;
 		}
         
-a.top { line-height: 56px; padding: 10px 4px 0px 4px;
-  color: white; background-color:black; color: white; font-size: 42px; font-family: grotesque mt std;}
+a.top { line-height: 80px; padding: 10px 4px 0px 4px;
+  color: white; background-color:black; color: white; font-size: 60px; font-family: grotesque mt std;}
 
       
  /*title bar css*/
@@ -28,7 +28,7 @@ a.top { line-height: 56px; padding: 10px 4px 0px 4px;
   .buykilltrade { margin-left: 100px;
  	padding: 5px 0px 0px 0px;
 	float: center;
-    width:69%;
+    width:90%;
 } 
  
  .socialmedia { padding: 10px 10px 0px 0px;
