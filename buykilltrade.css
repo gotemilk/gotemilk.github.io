@@ -1,0 +1,224 @@
+
+/*OOOOOO[ overworld ]DDDDDDDD*/
+	html { 
+    	margin: 0 auto; 
+    	}
+
+	body {
+		background-color: #fbd2d7;
+    	margin: 0px;
+    	}
+       
+/*LLLLLLLLL[ links ]SSSSSSSSS*/
+
+    a {
+		color: #ffffff;
+		text-decoration: none;
+		}
+	a:hover {
+		text-decoration: underline;
+		}
+        
+a.top { line-height: 56px; padding: 10px 4px 0px 4px;
+  color: white; background-color:black; color: white; font-size: 42px; font-family: grotesque mt std;}
+
+      
+ /*title bar css*/
+ 
+  .buykilltrade { margin-left: 100px;
+ 	padding: 5px 0px 0px 0px;
+	float: center;
+    width:69%;
+} 
+ 
+ .socialmedia { padding: 10px 10px 0px 0px;
+	float: left;
+    width: 20%}
+    
+    
+     .title {
+    	font-size:200px; 
+        padding-left: 60px; 		 				
+        background-color:#000000; 
+        font-family: grotesque mt std, helvetica; 
+        margin:0px; 
+        line-height:200px; 			
+        letter-spacing: -20px }
+
+
+.invert {
+   -webkit-filter: invert(1);
+   filter: invert(1);
+   }
+   
+.categories {
+ 
+font-family: arial rounded mt bold, grotesque mt std, helvetica; 
+margin:0px; 
+line-height:70px; 
+font-size: 70px;
+font-weight: 600;
+	}
+    
+    
+   .hat-categories {
+ 
+font-family: arial black; 
+margin:0px; 
+line-height:70px; 
+font-size: 50px;
+font-weight: 600;
+color: white;
+border-style: solid;
+border-width: 6px;
+background-color: black;
+border-color: #fbd2d7;
+	}
+   
+   
+ /*TEXT ON IMAGE*/
+    p.image-text
+
+{ margin:0px;
+font-size: 20px;
+background: #000000;
+font-family: georgia;
+color:black; 
+
+}
+
+
+.goldimagetext
+
+{ font-size: 20px;
+font-family: arial-black, grotesque mt std, grotesque mt std, grotesque mt std, grotesque mt std, grotesque mt std, grotesque mt std, grotesque mt std, grotesque mt std, helvetica-bold;
+}
+
+    div.container
+
+{
+	position: relative;
+    text-align: center;
+    color: black;
+    
+    }
+    
+       div.containercolumn
+
+{
+	position: relative;
+    text-align: center;
+    color: black;
+    	float: left;
+    width:50%;}
+    
+    
+     div.top-right {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    }
+     div.bottom-left {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    }
+    
+    div.column66
+
+{
+	position: relative;
+    text-align: center;
+    color: black;
+    	float: left;
+    width:60%;}
+    
+
+    div.column33
+
+{
+	position: relative;
+    text-align: left;
+    color: black;
+    	float: left;
+    width:40%;
+    padding: .5px .5px .5px 50px }
+    
+  /*COLUMNS*/
+ 
+ 
+.row::after {
+	content: "";
+    clear: both;
+    display: table;
+}
+.column {
+ 	float: left;
+    width:33.33%;
+
+}
+
+.column30 {
+ 	float: left;
+    width:30%;
+
+}
+    .column50 {
+ 	float: left;
+    width:50%;
+
+}
+
+  /* clearfix (clear floats)*/
+.row::after {
+	content: "";
+    clear: both;
+    display: table;
+}
+    
+    
+* {
+	box-sizing: border-box;
+    }
+    
+    
+blockquote 
+    {width:100%;}
+
+
+
+
+
+       /*footer css*/
+    
+ 
+  #site-footer {
+   width: 100%;
+   height:210px;
+background: black;
+}
+    
+  /*---*/
+
+
+
+.column30 {
+
+ 	float: left;
+
+    width:30%;
+
+
+
+}
+
+
+.solid { border-style: solid;
+		border-color: black;
+        border-width: 3px;
+        border-radius:10px;
+        background-color: white;
+        padding: 7px;
+        }
+        
+        
