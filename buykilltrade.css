@@ -23,27 +23,20 @@ a.top { line-height: 80px; padding: 10px 4px 0px 4px;
   color: white; background-color:black; color: white; font-size: 55px; font-family: grotesque mt std;}
 
 a.left { line-height: 100px; padding: 0px 4px 10px 4px;
-  color: white; background-color: black; color: white; font-size: 400%; font-family: grotesque mt std, arial black, verdana;}
+  color: white; background-color: black; color: white; font-size: 100px; font-family: grotesque mt std, arial black, verdana;}
 
-a.right { line-height: 200px; background-color:black; color: white; font-size: 950%; font-family: grotesque mt std, arial black, verdana;}
+a.right { line-height: 110%; background-color:black; color: white; font-size: 180px; font-family: grotesque mt std, arial black, verdana;}
 
  
 .columnRight { z-index: -1;
  	float: left;
     width: 15%;
-    position: -webkit-sticky;
-  position: fixed;
-  bottom: 0;
 } 
       
 .columnLeft {
  	float: right; margin-right: 160
     width: 15%;
   text-align: right;
-   position: -webkit-sticky;
-  position: fixed;
-  bottom: 0;
-  right: 0;
 } 
  /*title bar css*/
  
