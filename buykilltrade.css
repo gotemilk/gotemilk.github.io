@@ -47,12 +47,12 @@ a.right { line-height: 200px; background-color:black; color: white; font-size: 9
 } 
  /*title bar css*/
  
-  .buyKillTrade { 
-	float: right;
-    position: absolute;
+  .buyKillTrade { margin: auto;
+    margin-left: 12%;
+    position: fixed;
     top: 5%;
-    width: 57%;
-    margin-left: 250px;
+    width: 75%;
+    
 } 
  
  .socialmedia { 
