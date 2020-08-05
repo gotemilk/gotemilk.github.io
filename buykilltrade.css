@@ -22,18 +22,32 @@
 a.top { line-height: 80px; padding: 10px 4px 0px 4px;
   color: white; background-color:black; color: white; font-size: 55px; font-family: grotesque mt std;}
 
-      
-.mailclock{position: fixed; right: 50px; text-align: right; align: right; color: black;font-family: grotesque mt std, helvetica; font-weight: 700; font-style: italic; font-size: 240px; color: black;background-color: #ffd31c;}
+a.left { line-height: 50px; padding: 10px 4px 0px 4px;
+  color: white; background-color: black; color: white; font-size: 35px; font-family: grotesque mt std;}
 
+a.right { padding: 15px; background-color:black; color: white; font-size: 60px; font-family: grotesque mt std; }
+
+
+.columnRight { 
+ 	float: left;
+  margin-left: -100px;
+    width: 15%;
+
+} 
+      
+.columnLeft {
+ 	float: left;
+    width: 15%;
+
+} 
  /*title bar css*/
  
-  .buykilltrade { margin-left: 100px;
- 	padding: 5px 0px 0px 0px;
-	float: center;
-    width:90%;
+  .buyKillTrade { 
+	float: left;
+    width: 69%;
 } 
  
- .socialmedia { position: absolute; left: 25px; top: 0px;
+ .socialmedia { 
 	float: left;
     width: 20%}
     
@@ -126,51 +140,10 @@ font-family: arial-black, grotesque mt std, grotesque mt std, grotesque mt std, 
     left: 10%;
     }
     
-    div.column66
-
-{
-	position: relative;
-    text-align: center;
-    color: black;
-    	float: left;
-    width:60%;}
-    
-
-    div.column33
-
-{
-	position: relative;
-    text-align: left;
-    color: black;
-    	float: left;
-    width:40%;
-    padding: .5px .5px .5px 50px }
     
   /*COLUMNS*/
  
  
-.row::after {
-	content: "";
-    clear: both;
-    display: table;
-}
-.column {
- 	float: left;
-    width:33.33%;
-
-}
-
-.column30 {
- 	float: left;
-    width:30%;
-
-}
-    .column50 {
- 	float: left;
-    width:50%;
-
-}
-
   /* clearfix (clear floats)*/
 .row::after {
 	content: "";
@@ -188,6 +161,47 @@ blockquote
     {width:100%;}
 
 
+
+
+.column {
+ 	float: left;
+    width:33.33%;
+
+}
+
+
+
+.column30 {
+ 	float: left;
+    width:30%;
+
+}
+
+div.column33
+
+{
+	position: relative;
+    text-align: left;
+    color: black;
+    	float: left;
+    width:40%;
+    padding: .5px .5px .5px 50px }
+    
+    .column50 {
+ 	float: left;
+    width:50%;
+
+}
+
+    div.column66
+
+{
+	position: relative;
+    text-align: center;
+    color: black;
+    	float: left;
+    width:60%;}
+    
 
 
 
