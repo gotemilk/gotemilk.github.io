@@ -48,9 +48,9 @@ a.right { line-height: 200px; background-color:black; color: white; font-size: 9
  /*title bar css*/
  
   .buyKillTrade { margin: auto;
-    margin-left: 18%;
+    margin-left: 25%;
     position: fixed;
-    top: 0%;
+    bottom: 10%;
     width: 75%;
     
 } 
