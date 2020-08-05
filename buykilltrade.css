@@ -23,9 +23,9 @@ a.top { line-height: 80px; padding: 10px 4px 0px 4px;
   color: white; background-color:black; color: white; font-size: 55px; font-family: grotesque mt std;}
 
 a.left { line-height: 100px; padding: 0px 4px 10px 4px;
-  color: white; background-color: black; color: white; font-size: 400%; font-family: verdana, grotesque mt std, arial black, verdana;}
+  color: white; background-color: black; color: white; font-size: 400%; font-family: grotesque mt std, arial black, verdana;}
 
-a.right { line-height: 200px; background-color:black; color: white; font-size: 950%; font-family: grotesque mt std, arial black, helvetica;}
+a.right { line-height: 200px; background-color:black; color: white; font-size: 950%; font-family: grotesque mt std, arial black, verdana;}
 
  
 .columnRight { z-index: -1;
