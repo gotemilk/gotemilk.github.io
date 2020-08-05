@@ -23,9 +23,9 @@ a.top { line-height: 80px; padding: 10px 4px 0px 4px;
   color: white; background-color:black; color: white; font-size: 55px; font-family: grotesque mt std;}
 
 a.left { line-height: 100px; padding: 0px 4px 10px 4px;
-  color: white; background-color: black; color: white; font-size: 100px; font-family: grotesque mt std, arial black, verdana;}
+  color: white; color: black; font-size: 80px; font-family: grotesque mt std, arial black, verdana;}
 
-a.right { line-height: 110%; background-color:black; color: white; font-size: 180px; font-family: grotesque mt std, arial black, verdana;}
+a.right { letter-spacing: -20px; line-height: 110%; color: black; font-size: 160px; font-family: grotesque mt std, arial black, verdana;}
 
  
 .columnRight { z-index: -1;
@@ -40,10 +40,10 @@ a.right { line-height: 110%; background-color:black; color: white; font-size: 18
 } 
  /*title bar css*/
  
-  .buyKillTrade { margin: auto;
+  .buyKillTrade { 
     margin-left: 25%;
     position: fixed;
-    bottom: 9%;
+    top: 2%;
     width: 69%;
     
 } 
