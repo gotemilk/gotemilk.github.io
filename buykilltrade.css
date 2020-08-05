@@ -22,15 +22,15 @@
 a.top { line-height: 80px; padding: 10px 4px 0px 4px;
   color: white; background-color:black; color: white; font-size: 55px; font-family: grotesque mt std;}
 
-a.left { line-height: 50px; padding: 10px 4px 0px 4px;
-  color: white; background-color: black; color: white; font-size: 35px; font-family: grotesque mt std;}
+a.left { line-height: 120px; padding: 20px 4px 0px 4px;
+  color: white; background-color: black; color: white; font-size: 90px; font-family: grotesque mt std;}
 
-a.right { padding: 15px; background-color:black; color: white; font-size: 60px; font-family: grotesque mt std; }
+a.right { padding: 15px; background-color:black; color: white; font-size: 200px; font-family: grotesque mt std;  } 
 
 
-.columnRight { 
- 	float: left;
-    width: 15%;
+.columnRight { z-index: -1;
+ 	float: right;
+    width: 15%; margin-right: 200px;
 
 } 
       
@@ -43,7 +43,9 @@ a.right { padding: 15px; background-color:black; color: white; font-size: 60px; 
  
   .buyKillTrade { 
 	float: left;
+    position: absolute;
     width: 69%;
+    margin-left: 250px;
 } 
  
  .socialmedia { 
