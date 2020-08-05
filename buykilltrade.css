@@ -50,7 +50,7 @@ a.right { line-height: 200px; background-color:black; color: white; font-size: 9
   .buyKillTrade { margin: auto;
     margin-left: 25%;
     position: fixed;
-    bottom: 10%;
+    bottom: 5%;
     width: 75%;
     
 } 
