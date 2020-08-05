@@ -32,17 +32,18 @@ a.right { line-height: 250px; background-color:black; color: white; font-size: 1
  	float: left;
     width: 15%;
     position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   bottom: 0;
 } 
       
 .columnLeft {
  	float: right; margin-right: 160
     width: 15%;
+  text-align: right;
    position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   bottom: 0;
-
+  right: 0;
 } 
  /*title bar css*/
  
