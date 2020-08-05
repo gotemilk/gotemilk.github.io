@@ -23,6 +23,8 @@ a.top { line-height: 80px; padding: 10px 4px 0px 4px;
   color: white; background-color:black; color: white; font-size: 55px; font-family: grotesque mt std;}
 
       
+.mailclock{position: fixed; right: 50px; text-align: right; align: right; color: black;font-family: grotesque mt std, helvetica; font-weight: 700; font-style: italic; font-size: 240px; color: black;background-color: #ffd31c;}
+
  /*title bar css*/
  
   .buykilltrade { margin-left: 100px;
