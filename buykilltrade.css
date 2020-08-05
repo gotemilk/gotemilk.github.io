@@ -25,26 +25,26 @@ a.top { line-height: 80px; padding: 10px 4px 0px 4px;
 a.left { line-height: 125px; padding: 0px 4px 10px 4px;
   color: white; background-color: black; color: white; font-size: 75px; font-family: arial black, grotesque mt std;}
 
-a.right { line-height: 250px; background-color:black; color: white; font-size: 175px; font-family: arial black, grotesque mt std;} 
+a.right { line-height: 250px; background-color:black; color: white; font-size: 175px; font-family: arial black, grotesque mt std;}
 
  
 .columnRight { z-index: -1;
- 	float: right;
-    width: 15%; margin-right: 200px;
-
+ 	float: left;
+    width: 15%;
 } 
       
 .columnLeft {
- 	float: left;
+ 	float: right; margin-right: 160
     width: 15%;
 
 } 
  /*title bar css*/
  
   .buyKillTrade { 
-	float: left;
+	float: right;
     position: absolute;
-    width: 69%;
+    top: 15%;
+    width: 57%;
     margin-left: 250px;
 } 
  
