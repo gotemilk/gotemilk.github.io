@@ -30,7 +30,6 @@ a.right { padding: 15px; background-color:black; color: white; font-size: 60px; 
 
 .columnRight { 
  	float: left;
-  margin-left: -100px;
     width: 15%;
 
 } 
