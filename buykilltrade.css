@@ -31,11 +31,13 @@ a.right { letter-spacing: -20px; line-height: 1.4em; color: black; font-size: 9e
 .columnRight { z-index: -1;
  	float: left;
     width: 15%;
+  bottom: -100px;
+  position: fixed;
+  
 } 
       
 .columnLeft {
- 	float: right; margin-right: 160
-    width: 15%;
+ 	float: right; margin-right: 160;
   text-align: right;
 } 
  /*title bar css*/
