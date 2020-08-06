@@ -22,10 +22,10 @@
 a.top { line-height: 80px; padding: 10px 4px 0px 4px;
   color: white; background-color:black; color: white; font-size: 55px; font-family: grotesque mt std;}
 
-a.left { line-height: 100px; padding: 0px 4px 10px 4px;
-  color: white; color: black; font-size: 80px; font-family: grotesque mt std, arial black, verdana;}
+a.left { line-height: 1.4em; padding: 0px 4px 10px 4px;
+  color: white; color: black; font-size: 5em; font-family: grotesque mt std, arial black, verdana;}
 
-a.right { letter-spacing: -20px; line-height: 150%; color: black; font-size: 160px; font-family: grotesque mt std, arial black, verdana;}
+a.right { letter-spacing: -20px; line-height: 1.4em; color: black; font-size: 9em; font-family: grotesque mt std, arial black, verdana;}
 
  
 .columnRight { z-index: -1;
