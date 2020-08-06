@@ -204,6 +204,10 @@ div.column33
     width:60%;}
     
 
+column100 {
+	position: static;
+    	float: left;
+    width:100%; }
 
 
        /*footer css*/
