@@ -42,7 +42,7 @@ a.right { letter-spacing: -20px; line-height: 150%; color: black; font-size: 160
  
   .buyKillTrade { 
     margin-left: 25%;
-    position: fixed;
+    position: absolute;
     top: 2%;
     width: 69%;
     
@@ -108,7 +108,7 @@ color:black;
 .goldimagetext
 
 { font-size: 20px;
-font-family: arial-black, grotesque mt std, grotesque mt std, grotesque mt std, grotesque mt std, grotesque mt std, grotesque mt std, grotesque mt std, grotesque mt std, helvetica-bold;
+font-family: arial-black, grotesque mt std, helvetica-bold;
 }
 
     div.container
