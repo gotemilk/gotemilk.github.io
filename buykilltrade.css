@@ -32,7 +32,7 @@ a.right { letter-spacing: -20px; line-height: 1.4em; color: black; font-size: 9e
  	float: left;
     width: 15%;
   bottom: -100px;
-  position: fixed;
+  position: static;
   
 } 
       
