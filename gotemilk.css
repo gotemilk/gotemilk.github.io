@@ -101,16 +101,32 @@ font-weight: 600;
        color: black;
        text-align: right;
     position: absolute;
-    top: 0%;
+    top: 5%;
     right: 5%;
     }
 
 
 /*these are for the menu on the intro image*/
+#rcornersClothes {
+	border-radius: 4px 4px;
+  color: #fa4251;
+    background: white;
+    padding: 5px 10px 0px 0px;
+    line-height: 70px;
+    margin: 5px;}
+
+#rcornersStickers {
+	border-radius: 4px 4px;
+  color: black;
+    background: #ffd31c;
+    padding: 5px 10px 0px 0px;
+    line-height: 70px;
+    margin: 5px;}
+
 
 #rcorners1 {
 	border-radius: 4px 4px;
-  color: black;
+  color: #ffd31c;
     background: #fa4251;
     padding: 5px 10px 0px 0px;
     line-height: 70px;
@@ -127,8 +143,7 @@ font-weight: 600;
     line-height: 70px;
     margin: 5px;
     }
- 
-    #rcorners3 {
+   #rcorners3 {
 	border-radius: 4px 4px;
     background: black;
     color: #ffd31c;
@@ -136,6 +151,35 @@ font-weight: 600;
     line-height: 70px;
     margin: 5px;
     }
+#rcornersVoid
+{
+	border-radius: 4px 4px;
+    background: #85427d;
+    color: white;
+    padding: 5px 10px 0px 0px;
+    line-height: 70px;
+    margin: 5px;
+    }
+
+ 
+ 
+
+ #rcornersArtShop {
+	border-radius: 4px 4px;
+    background: #caeff5;
+    color: white;
+    padding: 5px 10px 0px 0px;
+    line-height: 70px;
+    margin: 5px;
+    }
+
+#rcornersBKT {
+	border-radius: 4px 4px;
+    background: #ffd7d7;
+    color: BLACK;
+    padding: 5px 10px 0px 0px;
+    line-height: 70px;
+    margin: 5px; }
 
 
     p.solid {
@@ -413,3 +457,4 @@ background: black;
 
      
     
+d
