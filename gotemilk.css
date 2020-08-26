@@ -118,11 +118,18 @@ font-weight: 600;
 #rcornersStickers {
 	border-radius: 4px 4px;
   color: black;
-    background: #ffd31c;
+    background: #fa4251;
     padding: 5px 10px 0px 0px;
     line-height: 70px;
     margin: 5px;}
 
+#rcornersGallery {
+	border-radius: 4px 4px;
+  color: #ffd31c;
+    background: blue;
+    padding: 5px 10px 0px 0px;
+    line-height: 70px;
+    margin: 5px;}
 
 #rcorners1 {
 	border-radius: 4px 4px;
@@ -166,7 +173,7 @@ font-weight: 600;
 
  #rcornersArtShop {
 	border-radius: 4px 4px;
-    background: #9aeff1;
+    background: #caeff1;
     color: white;
     padding: 5px 10px 0px 0px;
     line-height: 70px;
