@@ -37,7 +37,7 @@ a.right { letter-spacing: -20px; line-height: 1.4em; color: black; font-size: 9e
 } 
       
 .columnLeft {
- 	float: right; margin-right: 100;
+ 	float: right; margin-right: 40;
   text-align: right;
 } 
  /*title bar css*/
