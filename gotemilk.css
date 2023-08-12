@@ -118,18 +118,11 @@ font-weight: 600;
 #rcornersStickers {
 	border-radius: 4px 4px;
   color: black;
-    background: #fa4251;
+    background: #ffd31c;
     padding: 5px 10px 0px 0px;
     line-height: 70px;
     margin: 5px;}
 
-#rcornersGallery {
-	border-radius: 4px 4px;
-  color: #ffd31c;
-    background: blue;
-    padding: 5px 10px 0px 0px;
-    line-height: 70px;
-    margin: 5px;}
 
 #rcorners1 {
 	border-radius: 4px 4px;
@@ -158,29 +151,30 @@ font-weight: 600;
     line-height: 70px;
     margin: 5px;
     }
-
 #rcornersVoid
 {
 	border-radius: 4px 4px;
     background: #85427d;
     color: turquoise;
-    padding: 5px 10px 0px 0px;
-    line-height: 70px;
+    padding: 20px 10px 20px 20px;
+    line-height: 55px;
     margin: 5px;
-  letter-spacing: -8px;
+  letter-spacing: -4px;
+  font-size: 35px;
     }
 
+ 
  
 
  #rcornersArtShop {
 	border-radius: 4px 4px;
-    background: #caeff1;
+    background: #9aeff1;
     color: white;
     padding: 5px 10px 0px 0px;
     line-height: 70px;
     margin: 5px;
     }
-
+ 
 #rcornersBKT {
 	border-radius: 4px 4px;
     background: #febcbe;
